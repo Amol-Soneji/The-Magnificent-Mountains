@@ -1,0 +1,40 @@
+#ifndef RAIL_H
+#define RAIL_H
+
+
+
+class Rail
+{
+	public:
+		enum Directions
+		{
+			HORIZONTAL,
+			VERTICAL,
+			DIAGONAL_T_LEFT_B_RIGHT,
+			DIAGONAL_T_RIGHT_B_LEFT,
+			FOURWAY_CROSS,
+			CURVE_BOTTOM_TO_RIGHT,
+			CURVE_TOP_TO_RIGHT,
+			CURVE_BOTTOM_TO_LEFT,
+			CURVE_TOP_TO_LEFT,
+			CURVE_T_LEFT_BOTTOM,
+			CURVE_T_LEFT_RIGHT,
+			CURVE_T_LEFT_T_RIGHT,
+			CURVE_T_LEFT_B_LEFT,
+			CURVE_T_RIGHT_BOTTOM,
+			CURVE_T_RIGHT_LEFT,
+			CURVE_T_RIGHT_B_RIGHT,
+			CURVE_B_RIGHT_LEFT,
+			CURVE_B_RIGHT_TOP,
+			CURVE_B_RIGHT_B_LEFT,
+			CURVE_B_LEFT_RIGHT,
+			CURVE_B_LEFT_TOP
+		};
+
+		Rail(Directions railLayout)
+	private:
+
+
+}
+
+#endif
