@@ -6,11 +6,11 @@
 class AreaName : public TileGroup
 {
 	public:
-		AreaName(string name, vector<LandTiles> areaTiles) : name(name), areaTiles(areaTiles) {}
+		AreaName(string name, vector<LandTile *> areaTiles) : name(name), areaTiles(areaTiles) {}
 
 	private:
 		string name;
-		vector<LandTiles> areaTiles;
+		vector<LandTile *> areaTiles;
 };
 
 #endif
